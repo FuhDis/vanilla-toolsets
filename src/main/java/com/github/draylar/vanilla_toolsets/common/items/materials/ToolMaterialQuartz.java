@@ -38,6 +38,6 @@ public class ToolMaterialQuartz implements ToolMaterial
     @Override
     public Ingredient getRepairIngredient()
     {
-        return null;
+        return Ingredient.ofItems(Items.QUARTZ);
     }
 }
